@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+body{
+  background-image: url('https://assets.architecturaldigest.in/photos/62de71b36b9540618ef0a42b/16:9/w_1600,c_limit/13%20stunning%20university%20libraries%20around%20the%20world.jpg');
+  
+}
+.form{
+  display: block;
+  width: 95%;
+  margin: auto;
+  background-color: rgba(47, 79, 79, 0.897);
+  color: lightgray;   
+  border-radius: 10px;
+}
+.email{
+  color: #00b7b7cc;
+}
+h2{
+  margin: 2% auto auto 0%;
+}
+.formButton{
+  margin: auto auto 1%;
+}
+.formButtonn{
+  margin: auto auto 2% 2.5%
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.notes{
+  width: 95%;
+  margin: auto;
+  background-color: rgba(47, 79, 79, 0.897);
+  color: lightgray;   
+  border-radius: 10px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icon{
+  font-size: 4vh;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table{
+  margin: auto;
+  width: 70vw;
+  background-color: darkslategrey;
+  color: lightgray;  
+  border-radius: 5px;
 }
