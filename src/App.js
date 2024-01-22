@@ -8,6 +8,8 @@ import Alert from './component/Alert';
 import Login from './component/Login';
 import Signup from './component/Signup';
 import { useState } from 'react';
+import ResetPassword from './component/ResetPassword';
+import ForgetPassword from './component/ForgetPassword';
 
 
 function App() {
@@ -39,6 +41,12 @@ const showAlert = (message, type)=>{
               </Route>
               <Route exact path="/login">
                 <Login showAlert={showAlert}/>
+              </Route>
+              <Route exact path="/forget-password">
+                <ForgetPassword showAlert={showAlert}/>
+              </Route>
+              <Route exact path="/reset-password/:id/:token">
+                <ResetPassword showAlert={showAlert}/>
               </Route>
               <Route exact path="/signup">
                 <Signup showAlert={showAlert}/>

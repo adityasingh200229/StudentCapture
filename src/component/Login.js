@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useHistory } from 'react-router-dom'
+import { useHistory, Link } from 'react-router-dom'
 import Alert from './Alert'
 
 const Login = (props) => {
@@ -45,6 +45,7 @@ const onChange=(e)=>{
                     <input type="password" className="form-control"value={credentials.password} name="password" id="password" onChange={onChange} />
                 </div>
                 <button type="submit" className="formButtonn btn btn-primary" >Login</button>
+                <Link className="forgetPassword" to="/forget-password">forget password?</Link>
             </form>
         </div>
     )
