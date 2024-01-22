@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/StudentCapture/static/css/main.7c3d820b.css",
+    "main.js": "/StudentCapture/static/js/main.f5b7f388.js",
+    "index.html": "/StudentCapture/index.html",
+    "main.7c3d820b.css.map": "/StudentCapture/static/css/main.7c3d820b.css.map",
+    "main.f5b7f388.js.map": "/StudentCapture/static/js/main.f5b7f388.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c3d820b.css",
+    "static/js/main.f5b7f388.js"
+  ]
+}
